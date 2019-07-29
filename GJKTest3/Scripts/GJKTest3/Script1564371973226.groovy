@@ -27,7 +27,9 @@ WebUI.click(findTestObject('Object Repository/Demo_Obj/Page_LoginLogout/button_L
 
 WebUI.delay(3)
 
-//println("Login Success")
+println("Login Success")
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Demo_Obj/Page_LoginLogout/i_CURA Healthcare_fa fa-bars'))
 
