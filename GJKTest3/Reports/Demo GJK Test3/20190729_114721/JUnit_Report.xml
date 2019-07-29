@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Demo GJK Test3" time="29" tests="1" failures="0" errors="0">
+   <testsuite name="Demo GJK Test3" tests="1" failures="0" errors="0" time="29" timestamp="2019-07-29 11:47:29" hostname="Ruby - Ruby-PC" id="Test Suites/Demo GJK Test3">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Tang\\GJKTest3\\GJKTest3\\Reports\\Demo GJK Test3\\20190729_114721"/>
+         <property name="logFiles" value="C:\\Tang\\GJKTest3\\GJKTest3\\Reports\\Demo GJK Test3\\20190729_114721\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ruby - Ruby-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 75.0.3770.142"/>
+         <property name="hostAddress" value="192.168.230.1"/>
+         <property name="sessionId" value="b7afadfd1b1d075eb0317d11c4542834"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/GJKTest3" classname="Test Cases/GJKTest3" status="PASSED">
+         <system-out><![CDATA[2019-07-29 11:47:30 - [TEST_CASE][PASSED] - Test Cases/GJKTest3: Test Cases/GJKTest3
+
+2019-07-29 11:47:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-07-29 11:47:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-07-29 11:47:31 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-07-29 11:47:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-07-29 11:47:47 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2019-07-29 11:47:50 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2019-07-29 11:47:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demo_Obj/Page_LoginLogout/a_Make Appointment")): Object: 'Object Repository/Demo_Obj/Page_LoginLogout/a_Make Appointment' is clicked on
+
+2019-07-29 11:47:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo_Obj/Page_LoginLogout/a_Make Appointment' is clicked on
+
+2019-07-29 11:47:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demo_Obj/Page_LoginLogout/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Demo_Obj/Page_LoginLogout/input_Username_username'
+
+2019-07-29 11:47:52 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Demo_Obj/Page_LoginLogout/input_Username_username'
+
+2019-07-29 11:47:52 - [TEST_STEP][PASSED] - setText(findTestObject("Demo_Obj/Page_LoginLogout/input_Password_password"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Demo_Obj/Page_LoginLogout/input_Password_password'
+
+2019-07-29 11:47:52 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Demo_Obj/Page_LoginLogout/input_Password_password'
+
+2019-07-29 11:47:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demo_Obj/Page_LoginLogout/button_Login")): Object: 'Object Repository/Demo_Obj/Page_LoginLogout/button_Login' is clicked on
+
+2019-07-29 11:47:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo_Obj/Page_LoginLogout/button_Login' is clicked on
+
+2019-07-29 11:47:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-07-29 11:47:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-07-29 11:47:56 - [TEST_STEP][PASSED] - println("Login Success"): null
+
+2019-07-29 11:47:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demo_Obj/Page_LoginLogout/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/Demo_Obj/Page_LoginLogout/i_CURA Healthcare_fa fa-bars' is clicked on
+
+2019-07-29 11:47:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo_Obj/Page_LoginLogout/i_CURA Healthcare_fa fa-bars' is clicked on
+
+2019-07-29 11:47:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demo_Obj/Page_LoginLogout/a_Logout")): Object: 'Object Repository/Demo_Obj/Page_LoginLogout/a_Logout' is clicked on
+
+2019-07-29 11:47:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo_Obj/Page_LoginLogout/a_Logout' is clicked on
+
+2019-07-29 11:47:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-07-29 11:47:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-29 11:47:29 - [TEST_SUITE][PASSED] - Demo GJK Test3: Test Cases/GJKTest3]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
