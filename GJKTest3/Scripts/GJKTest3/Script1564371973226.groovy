@@ -29,7 +29,7 @@ WebUI.delay(2)
 
 println("Login Success")
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Demo_Obj/Page_LoginLogout/i_CURA Healthcare_fa fa-bars'))
 
