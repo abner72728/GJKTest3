@@ -25,11 +25,11 @@ WebUI.setText(findTestObject('Demo_Obj/Page_LoginLogout/input_Password_password'
 
 WebUI.click(findTestObject('Object Repository/Demo_Obj/Page_LoginLogout/button_Login'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 println("Login Success")
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Demo_Obj/Page_LoginLogout/i_CURA Healthcare_fa fa-bars'))
 
