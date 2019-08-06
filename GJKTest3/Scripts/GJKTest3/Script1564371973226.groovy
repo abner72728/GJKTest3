@@ -25,7 +25,7 @@ WebUI.setText(findTestObject('Demo_Obj/Page_LoginLogout/input_Password_password'
 
 WebUI.click(findTestObject('Object Repository/Demo_Obj/Page_LoginLogout/button_Login'))
 
-WebUI.delay(1)
+WebUI.delay(3)
 
 println("Login Success")
 
